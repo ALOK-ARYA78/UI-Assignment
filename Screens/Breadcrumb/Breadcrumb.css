@@ -1,0 +1,19 @@
+@font-face {
+    font-family: ecomFont;
+    src: url(../../Fonts/OpenSans-Regular-webfont.woff);
+}
+
+.breadcrumb {
+    list-style-type: none;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li a {
+    font-family: ecomFont;
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}

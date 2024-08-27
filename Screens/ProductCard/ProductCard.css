@@ -1,0 +1,31 @@
+.product-list {
+    width: 100%;
+    height: auto;
+    min-height: 800px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card{
+    width: 80%;
+    height: 250px;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.productImage{
+    width: 100%;
+    height: 190px;
+}
+
+.heartIcon{
+    width: 5%;
+}
+
+.card {
+    padding: 5px;
+}
+
+.card span{
+    display: block;
+}
